@@ -1,0 +1,6 @@
+.account-img {
+    width: 128px !important;
+    height: 128px !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
