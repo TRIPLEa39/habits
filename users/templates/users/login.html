@@ -12,11 +12,11 @@
                         <div class="mb-3">
                             {{ form|crispy }}
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Log In</button>
+                        <button type="submit" class="btn btn-success w-100">Log In</button>
                     </form>
                     <div class="border-top pt-3">
                         <small class="text-muted">
-                            Don't have an account? <a class="ml-2" href="{% url 'register' %}">Sign Up</a>
+                            Don't have an account? <a class="ml-2 btn btn-outline-success" href="{% url 'register' %}">Sign Up</a>
                         </small>
                     </div>
                 </div>

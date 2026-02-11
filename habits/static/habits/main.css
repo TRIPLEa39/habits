@@ -4,3 +4,22 @@
     object-fit: cover;
     border-radius: 50%;
 }
+.navbar .account-img {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* Profile image in navbar */
+.navbar-img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 8px; /* small gap from links */
+}
+
+/* Brand box styling */
+.navbar-brand {
+  font-weight: bold;
+}

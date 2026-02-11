@@ -1,0 +1,19 @@
+{% extends "habits/layout.html" %}
+{% block content %}
+    <div class="container mt-5 p-4 rounded">
+        <div class="row">
+            <div class="col-md-6 col-lg-5 mx-auto">
+                <div class="card bg-alert-subtle">
+                    <div class="card-body bg-danger-subtle text-center">
+                        <h2 class="text-center">You have been logged out</h2>
+                        <div class="border-top pt-3">
+                            <small class="text-muted">
+                                <a class="ml-2 btn btn-outline-success" href="{% url 'login' %}">Log In</a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

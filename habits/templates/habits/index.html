@@ -1,4 +1,18 @@
 {% extends "habits/layout.html" %}
 {% block content %}
-Hi hello there, INDEX
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title mb-4">Welcome to Habit Tracker</h1>
+                    <p class="card-text">Track your habits and achieve your goals with our easy-to-use habit tracker. Stay motivated and build positive habits for a better you!</p>
+                    {% if not user.is_authenticated %}
+                        <a href="{% url 'register' %}" class="btn btn-success mt-3">Get Started</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock%}
