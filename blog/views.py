@@ -1,9 +1,7 @@
 from django.shortcuts import get_object_or_404
-from django.contrib import messages
 from django.views.generic import ListView, CreateView, DetailView, DeleteView, UpdateView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
-from users.forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 from .models import Post
 
 # Create your views here.
